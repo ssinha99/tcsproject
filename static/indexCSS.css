@@ -1,0 +1,33 @@
+html{
+	overflow: ;
+}
+body{
+	font-weight: 100px;
+	font-family: sans-serif;
+	background-image: url("bgimage.jpg");
+;
+}
+#div1{
+    margin-top:75px;
+	margin-left: 25%;
+	margin-right:20px;
+	box-shadow: 1px 1px 12px 1px grey;
+	background-color: white;
+	height: 60%;
+	width: 50%;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom: 30px;
+}
+
+#div2{
+    margin-top: 30px;
+    margin-left: 25%;
+    text-align:center;
+	box-shadow: 1px 1px 12px 1px grey;
+	background-color: white;
+	height:30%;
+	width: 50%;
+	padding-top:10px;
+	padding-bottom: 10px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TCS PROJECT</title>
+    <link rel="stylesheet" href="/static/indexCSS.css?q=1280549780"/>
+    <!--?q=1280549780-->
+    <!--<link rel="stylesheet" type="text/css" href="C:\Users\Sinha\.spyder-py3\tcsproject\static\indexCSS.css">-->
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+</head>
+<body>
+
+<div id="div1">
+<h1>Weather Predictor</h1>
+<form method="post" action="/">
+    <!--<input type="date" min="2016-01-01" max="2017-04-24" name="inp1"></input>-->
+    <label>Enter year:</label>
+    <input type="number" min="1900" max="2099" name="inp2"></input><br><br>
+    <label>Enter Month:</label>
+    <input type="number" min="01" max="12" name="inp3"></input><br><br>
+    <label>Enter temperature:</label>
+    <input type="number" min="-10" max="50" name="inp4"></input><br><br>
+    <label>Enter Humidity:</label>
+    <input type="number" min="25" max="100" name="inp5" placeholder="25-100"></input><br><br>
+    <label>Enter Wind Speed:</label>
+    <input type="number" min="0" max="100" name="inp6" placeholder="0-100"></input><br><br>
+    <input type="submit">
+</form>
+</div>
+
+<div id="div2">
+<h2>Weather prediction: {{output}}</h2>
+</div>
+
+</body>
+</html>
